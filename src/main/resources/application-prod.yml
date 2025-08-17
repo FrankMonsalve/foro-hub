@@ -2,8 +2,8 @@ spring:
   profile.active: prod
   datasource:
     url: jdbc:mysql://${DB_HOST}/${DB_NAME}
-    username: ${DB_USER}
-    password: ${DB_PASSWORD}
+    username: root
+    password: root123
   jpa:
     show-sql: false
     properties:
